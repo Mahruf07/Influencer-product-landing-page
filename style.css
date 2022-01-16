@@ -73,6 +73,15 @@ body{
     margin-top: 15px;
     border-radius: 41px;
     font-size: 16px;
+    font-weight: 700;
+    background-color: #FFF;
+    color: #E02C6D;
+}
+
+.main-text button:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: .8s;
+    transition-timing-function: ease-in-out;
     color: #FFF;
     background-color: #E02C6D;
 }
@@ -213,9 +222,18 @@ hr{
 
 .bonus-desciption button{
    padding: 10px 20px;
-   background-color: #E02C6D;
-   color: white;
+   color: #E02C6D;
+   font-size: 16px;
+   background-color: white;
    border-radius: 20px;
+}
+
+.bonus-desciption button:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: .8s;
+    transition-timing-function: ease-in-out;
+    color: #FFF;
+    background-color: #E02C6D;
 }
 
 /* Footer */
